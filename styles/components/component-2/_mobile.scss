@@ -1,0 +1,77 @@
+@media screen and (min-width: $mobile-start) and (max-width: $mobile-end) {
+  .component-2 {
+    width: 100%;
+    height: 598px;
+
+    .left-wrapper {
+      display: none;
+      width: 550px;
+      height: 100%;
+      background-color: $comp-2-secondary;
+    }
+
+    .right-wrapper {
+      height: 100%;
+      width: 100%;
+
+      .right-wrapper-content {
+        margin-top: 26px;
+        text-align: center;
+        padding: 12px;
+
+        h1 {
+          @include montserrat(24px, bold, black);
+          margin-bottom: 23px;
+        }
+
+        .underline-p {
+          display: none;
+          p,
+          span {
+            @include opensans(18px, 300, black);
+            line-height: 30px;
+            border-bottom: 1px solid #dbdbdb;
+          }
+          margin-bottom: 30px;
+        }
+
+        .underline-p-mobile {
+          p,
+          span {
+            @include opensans(18px, 300, black);
+            line-height: 30px;
+            border-bottom: 1px solid #dbdbdb;
+          }
+          margin-bottom: 20px;
+        }
+
+        p {
+          @include opensans(14px, 300, black);
+        }
+
+        .comp-2-texts {
+          flex-direction: column;
+          align-items: center;
+
+          :first-child {
+            width: 84.375vw;
+            line-height: 20px;
+            margin-bottom: 12px;
+          }
+          :last-child {
+            width: 84.375vw;
+            line-height: 18px;
+          }
+
+          margin-bottom: 19px;
+        }
+
+        .bottom-p {
+          width: 84.375vw;
+          line-height: 20px;
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+}

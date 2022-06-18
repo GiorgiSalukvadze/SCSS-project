@@ -1,0 +1,54 @@
+@mixin montserrat($font-size, $weight, $color) {
+  font-family: "Montserrat", sans-serif;
+  color: $color;
+  font-weight: $weight;
+  font-size: $font-size;
+}
+
+@mixin opensans($font-size, $weight, $color) {
+  font-family: "Open Sans", sans-serif;
+  color: $color;
+  font-weight: $weight;
+  font-size: $font-size;
+}
+
+.flex {
+  display: flex;
+
+  &-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-just-end {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-al-cent {
+    display: flex;
+    align-items: center;
+  }
+
+  &-just-cent {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-al-end {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &-al-sp-btw {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  &-js-sp-btw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

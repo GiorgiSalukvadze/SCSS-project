@@ -1,0 +1,1353 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-just-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-al-cent {
+  display: flex;
+  align-items: center;
+}
+.flex-just-cent {
+  display: flex;
+  justify-content: center;
+}
+.flex-al-end {
+  display: flex;
+  align-items: flex-end;
+}
+.flex-al-sp-btw {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.flex-js-sp-btw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .component-1 {
+    width: 100%;
+    height: 484px;
+    background-color: #eeeeee;
+  }
+  .component-1 .wrapper {
+    width: 550px;
+    height: 100%;
+  }
+  .component-1 .wrapper .content-div {
+    height: 100%;
+  }
+  .component-1 .wrapper .content-div .content-box {
+    background-color: #ed1c24;
+    width: 350px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top {
+    padding: 26px 35px 0px 33px;
+    margin-bottom: 55px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .title img {
+    display: none;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .e-box {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    border: 3px solid white;
+    padding: 3px 8px;
+    margin-bottom: 47px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .e-text {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 5px 0 0 10px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .photography-div {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    background-color: #111111;
+    margin-bottom: 4px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .john-doe {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 150px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .john-doe span {
+    font-size: 21px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .date-div {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 17px 0 19px 0;
+    margin-bottom: 21px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .date-div p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    width: 220px;
+    margin-left: 2px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .admission {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: regular;
+    font-size: 18px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .admission i {
+    font-size: 21px;
+    color: black;
+    margin-right: 9px;
+  }
+  .component-1 .wrapper .content-2 {
+    height: 100%;
+    width: 550px;
+    background-color: #dbdbdb;
+  }
+  .component-1 .wrapper-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .component-1 .wrapper-2 .icons {
+    height: 62px;
+    background-color: black;
+  }
+  .component-1 .wrapper-2 .icons div {
+    height: 100%;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .component-1 .wrapper-2 .icons i {
+    color: white;
+    font-size: 25px;
+    padding: 0px 20px 0 20px;
+  }
+  .component-1 .wrapper-2 .icons i:hover {
+    color: #ff403b;
+    cursor: pointer;
+  }
+  .component-1 .wrapper-2 .icons .icon-div {
+    margin-right: 200px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-1 {
+    width: 100%;
+    height: 487px;
+    background-color: #eeeeee;
+  }
+  .component-1 .wrapper {
+    width: 320px;
+    height: 100%;
+  }
+  .component-1 .wrapper .content-div {
+    height: 100%;
+    justify-content: center;
+  }
+  .component-1 .wrapper .content-div .content-box {
+    background-color: #ff4242;
+    width: 271px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top {
+    padding: 26px 35px 0px 27px;
+    margin-bottom: 55px;
+    position: relative;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .title img {
+    position: absolute;
+    right: 0;
+    top: 13px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .e-box {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border: 3px solid white;
+    padding: 3px 8px;
+    margin-bottom: 57px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .e-text {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 4px 0 0 5px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .photography-div {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    background-color: #111111;
+    margin-bottom: 5px;
+    margin-left: 7px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .john-doe {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 150px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+    margin-left: 9px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .john-doe span {
+    font-size: 21px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .date-div {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 17px 0 19px 0;
+    margin-bottom: 21px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .date-div p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 190px;
+    margin-left: 8px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .admission {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: regular;
+    font-size: 16px;
+    margin-left: 6px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .admission i {
+    font-size: 21px;
+    color: black;
+    margin-right: 9px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .component-1 .wrapper .content-2 {
+    height: 100%;
+    width: 100vw;
+    background-color: black;
+  }
+  .component-1 .wrapper-2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  .component-1 .wrapper-2 img {
+    display: flex;
+    visibility: visible;
+    margin-left: -87px;
+    margin-top: 14px;
+  }
+  .component-1 .wrapper-2 .icons {
+    height: 62px;
+    background-color: black;
+  }
+  .component-1 .wrapper-2 .icons div {
+    height: 100%;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .component-1 .wrapper-2 .icons i {
+    color: white;
+    font-size: 25px;
+    padding: 0px 20px 0 20px;
+  }
+  .component-1 .wrapper-2 .icons i:hover {
+    color: #ff403b;
+    cursor: pointer;
+  }
+  .component-1 .wrapper-2 .icons .icon-div {
+    margin-right: 37px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component-1 {
+    width: 100%;
+    height: 484px;
+    background-color: #eeeeee;
+  }
+  .component-1 .wrapper {
+    width: 385px;
+    height: 100%;
+  }
+  .component-1 .wrapper .content-div {
+    height: 100%;
+  }
+  .component-1 .wrapper .content-div .content-box {
+    background-color: #ff4242;
+    width: 345px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top {
+    padding: 26px 35px 0px 33px;
+    margin-bottom: 55px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .title img {
+    display: none;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .e-box {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    border: 3px solid white;
+    padding: 3px 8px;
+    margin-bottom: 47px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .e-text {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 5px 0 0 10px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .photography-div {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    background-color: #111111;
+    margin-bottom: 4px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .john-doe {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    width: 150px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .john-doe span {
+    font-size: 21px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .date-div {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 17px 0 19px 0;
+    margin-bottom: 21px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .date-div p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    width: 220px;
+    margin-left: 2px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .admission {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: regular;
+    font-size: 18px;
+  }
+  .component-1 .wrapper .content-div .content-box .content-top .admission i {
+    font-size: 21px;
+    color: black;
+    margin-right: 9px;
+  }
+  .component-1 .wrapper .content-2 {
+    height: 100%;
+    width: 385px;
+    background-color: black;
+  }
+  .component-1 .wrapper .content-2 div {
+    width: 40px;
+    height: 100%;
+    background-color: #dbdbdb;
+  }
+  .component-1 .wrapper-2 {
+    width: 100%;
+    height: 100%;
+  }
+  .component-1 .wrapper-2 .icons {
+    height: 62px;
+    background-color: black;
+  }
+  .component-1 .wrapper-2 .icons div {
+    height: 100%;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .component-1 .wrapper-2 .icons i {
+    color: white;
+    font-size: 25px;
+    padding: 0px 20px 0 20px;
+  }
+  .component-1 .wrapper-2 .icons i:hover {
+    color: #ff403b;
+    cursor: pointer;
+  }
+  .component-1 .wrapper-2 .icons .icon-div {
+    margin-right: 37px;
+  }
+}
+.content-bottom {
+  height: 100%;
+}
+.content-bottom i {
+  padding: 10px 11px;
+  font-size: 21px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: none;
+}
+.content-bottom i:hover {
+  color: black;
+  cursor: pointer;
+}
+.content-bottom .pin {
+  border-right: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .component-2 {
+    width: 100%;
+    height: 523px;
+  }
+  .component-2 .left-wrapper {
+    width: 550px;
+    height: 100%;
+    background-color: #dbdbdb;
+  }
+  .component-2 .right-wrapper {
+    height: 100%;
+    margin-left: 3.286vw;
+    margin-top: 3vw;
+  }
+  .component-2 .right-wrapper .right-wrapper-content {
+    width: 42.857vw;
+  }
+  .component-2 .right-wrapper .right-wrapper-content h1 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 43px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p {
+    margin-bottom: 30px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p p,
+.component-2 .right-wrapper .right-wrapper-content .underline-p span {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p-mobile {
+    display: none;
+  }
+  .component-2 .right-wrapper .right-wrapper-content p {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts {
+    justify-content: space-between;
+    width: 42.5vw;
+    margin-bottom: 30px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts :first-child {
+    width: 18.571vw;
+    line-height: 20px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts :last-child {
+    width: 21.429vw;
+    line-height: 18px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .bottom-p {
+    width: 38.786vw;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-2 {
+    width: 100%;
+    height: 598px;
+  }
+  .component-2 .left-wrapper {
+    display: none;
+    width: 550px;
+    height: 100%;
+    background-color: #dbdbdb;
+  }
+  .component-2 .right-wrapper {
+    height: 100%;
+    width: 100%;
+  }
+  .component-2 .right-wrapper .right-wrapper-content {
+    margin-top: 26px;
+    text-align: center;
+    padding: 12px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content h1 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 23px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p {
+    display: none;
+    margin-bottom: 30px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p p,
+.component-2 .right-wrapper .right-wrapper-content .underline-p span {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p-mobile {
+    margin-bottom: 20px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p-mobile p,
+.component-2 .right-wrapper .right-wrapper-content .underline-p-mobile span {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .component-2 .right-wrapper .right-wrapper-content p {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 19px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts :first-child {
+    width: 84.375vw;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts :last-child {
+    width: 84.375vw;
+    line-height: 18px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .bottom-p {
+    width: 84.375vw;
+    line-height: 20px;
+    margin-left: 14px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component-2 {
+    width: 100%;
+    height: 472px;
+  }
+  .component-2 .left-wrapper {
+    display: none;
+    width: 550px;
+    height: 100%;
+    background-color: #dbdbdb;
+  }
+  .component-2 .right-wrapper {
+    height: 100%;
+    margin-left: 89px;
+    margin-top: 42px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content {
+    width: 78.125vw;
+  }
+  .component-2 .right-wrapper .right-wrapper-content h1 {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 3.906vw;
+    margin-bottom: 43px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p {
+    margin-bottom: 30px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p p,
+.component-2 .right-wrapper .right-wrapper-content .underline-p span {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 2.604vw;
+    line-height: 30px;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .underline-p-mobile {
+    display: none;
+  }
+  .component-2 .right-wrapper .right-wrapper-content p {
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 1.823vw;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts {
+    justify-content: space-between;
+    width: 77.474vw;
+    margin-bottom: 30px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts :first-child {
+    width: 33.854vw;
+    line-height: 20px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .comp-2-texts :last-child {
+    width: 39.063vw;
+    line-height: 18px;
+  }
+  .component-2 .right-wrapper .right-wrapper-content .bottom-p {
+    line-height: 20px;
+  }
+}
+.grey-div {
+  height: 100%;
+  width: 350px;
+  background-color: #898989;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .component-3 {
+    width: 100%;
+    height: 520px;
+    background-color: black;
+  }
+  .component-3 .comp-3-tablet {
+    display: none;
+  }
+  .component-3 .comp-3-wrapper .right-div h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 34px;
+  }
+  .component-3 .comp-3-wrapper .grid-div {
+    width: 351px;
+    height: 345px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 21px 15px;
+  }
+  .component-3 .comp-3-wrapper .grid-div div {
+    background-color: white;
+  }
+  .component-3 .comp-3-wrapper .grid-div div:hover {
+    border: 7px solid #ed1c24;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-3 {
+    width: 100%;
+    height: 361px;
+    background-color: black;
+  }
+  .component-3 .comp-3-wrapper {
+    display: none;
+  }
+  .component-3 .comp-3-wrapper .right-div h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 34px;
+  }
+  .component-3 .comp-3-wrapper .grid-div {
+    width: 351px;
+    height: 345px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 21px 15px;
+  }
+  .component-3 .comp-3-wrapper .grid-div div {
+    background-color: white;
+  }
+  .component-3 .comp-3-wrapper .grid-div div:hover {
+    border: 7px solid #ed1c24;
+  }
+  .component-3 .comp-3-tablet {
+    margin-top: 38px;
+    margin-left: 4px;
+  }
+  .component-3 .comp-3-tablet h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 38px;
+    text-align: center;
+  }
+  .component-3 .comp-3-tablet .white-div {
+    width: 271px;
+    height: 191px;
+    background-color: white;
+    margin-bottom: 26px;
+  }
+  .component-3 .comp-3-tablet .grid-tablet {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component-3 {
+    width: 100%;
+    height: 572px;
+    background-color: black;
+  }
+  .component-3 .comp-3-wrapper {
+    display: none;
+  }
+  .component-3 .comp-3-wrapper .right-div h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 34px;
+  }
+  .component-3 .comp-3-wrapper .grid-div {
+    width: 351px;
+    height: 345px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 21px 15px;
+  }
+  .component-3 .comp-3-wrapper .grid-div div {
+    background-color: white;
+  }
+  .component-3 .comp-3-wrapper .grid-div div:hover {
+    border: 7px solid #ed1c24;
+  }
+  .component-3 .comp-3-tablet {
+    margin-top: 42px;
+    margin-left: 4px;
+  }
+  .component-3 .comp-3-tablet h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 29px;
+    margin-bottom: 26px;
+  }
+  .component-3 .comp-3-tablet .white-div {
+    width: 591px;
+    height: 295px;
+    background-color: white;
+    margin-bottom: 26px;
+  }
+  .component-3 .comp-3-tablet .grid-tablet {
+    width: 590px;
+    height: 101px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 13px;
+  }
+  .component-3 .comp-3-tablet .grid-tablet div {
+    background-color: white;
+  }
+  .component-3 .comp-3-tablet .grid-tablet div:hover {
+    border: 7px solid #ed1c24;
+  }
+}
+.comp-3-wrapper {
+  width: 1002px;
+  height: 100%;
+  margin-top: 51px;
+}
+.comp-3-wrapper .left-div {
+  height: 409px;
+  width: 621px;
+  background-color: white;
+  margin-right: 30px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .component-4 {
+    position: relative;
+    width: 100%;
+    height: 440px;
+  }
+
+  .address-div {
+    position: absolute;
+    top: 0;
+    left: 202px;
+    height: 100%;
+    width: 349px;
+    background-color: #ed1c24;
+    mix-blend-mode: hard-light;
+  }
+  .address-div h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 23px;
+    margin-top: 65px;
+  }
+  .address-div .hole {
+    width: 42.5px;
+    height: 42.5px;
+    border-radius: 100%;
+    background-color: gray;
+    margin-bottom: 13px;
+  }
+  .address-div .hole i {
+    font-size: 30px;
+  }
+  .address-div .comp-4-address {
+    width: 241px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 18px;
+    margin-bottom: 22px;
+  }
+  .address-div .comp-4-address .comp-4-desktop-p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  .address-div .comp-4-address .comp-4-tablet-p {
+    display: none;
+  }
+  .address-div .direction {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 22px 0;
+  }
+  .address-div .comp-4-icons div {
+    width: 43px;
+    height: 43px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .address-div .comp-4-icons i {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-4 {
+    position: relative;
+    width: 100%;
+    height: 403px;
+  }
+
+  .address-div {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    height: 100%;
+    width: 270px;
+    background-color: #ed1c24;
+    mix-blend-mode: hard-light;
+  }
+  .address-div h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 6px;
+    margin-bottom: 28px;
+  }
+  .address-div .hole {
+    margin-left: 5px;
+    width: 42.5px;
+    height: 42.5px;
+    border-radius: 100%;
+    background-color: gray;
+    margin-bottom: 26px;
+  }
+  .address-div .hole i {
+    font-size: 30px;
+  }
+  .address-div .comp-4-address {
+    width: 190px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 16px;
+    margin-bottom: 28px;
+  }
+  .address-div .comp-4-address .comp-4-desktop-p {
+    display: none;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  .address-div .comp-4-address .comp-4-tablet-p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 170px;
+    text-align: center;
+  }
+  .address-div .direction {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 20px 0px;
+  }
+  .address-div .comp-4-icons div {
+    width: 43px;
+    height: 43px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .address-div .comp-4-icons i {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component-4 {
+    position: relative;
+    width: 100%;
+    height: 438px;
+  }
+
+  .address-div {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    height: 100%;
+    width: 346px;
+    background-color: #ed1c24;
+    mix-blend-mode: hard-light;
+  }
+  .address-div h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-left: 6px;
+    margin-bottom: 28px;
+  }
+  .address-div .hole {
+    margin-left: 5px;
+    width: 42.5px;
+    height: 42.5px;
+    border-radius: 100%;
+    background-color: gray;
+    margin-bottom: 16px;
+  }
+  .address-div .hole i {
+    font-size: 30px;
+  }
+  .address-div .comp-4-address {
+    width: 241px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 18px;
+    margin-bottom: 22px;
+  }
+  .address-div .comp-4-address .comp-4-desktop-p {
+    display: none;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  .address-div .comp-4-address .comp-4-tablet-p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    text-align: center;
+    margin-left: 8px;
+  }
+  .address-div .direction {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 22px 5px;
+  }
+  .address-div .comp-4-icons div {
+    width: 43px;
+    height: 43px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .address-div .comp-4-icons i {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+.map-div {
+  width: 100%;
+  height: 100%;
+}
+.map-div i {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+  .component-5 .comp-5-wrapper {
+    width: 1088px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 82px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left {
+    width: 775px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left .comp-5-box h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    width: 39px;
+    height: 39px;
+    border: 3px solid white;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left .comp-5-box span {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 7px;
+    margin-top: 3px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left ul {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+    height: 20px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left ul :not(:last-child) {
+    margin-right: 4px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left li:hover {
+    border-bottom: 2px solid #ff403b;
+  }
+  .component-5 .comp-5-wrapper .comp-5-right {
+    height: 39px;
+    width: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .component-5 .comp-5-wrapper .comp-5-right i {
+    color: white;
+    font-size: 25px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-right i:hover {
+    color: #ff403b;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .component-5 {
+    justify-content: flex-start;
+  }
+  .component-5 .comp-5-wrapper {
+    width: 275px;
+    align-items: flex-start;
+    padding-top: 27px;
+    padding-left: 24px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left .comp-5-box h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    width: 36px;
+    height: 36px;
+    border: 3px solid white;
+    margin-bottom: 38px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left .comp-5-box span {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-top: 6px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left ul {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    height: 20px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left ul :not(:last-child) {
+    margin-right: 4px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left li:hover {
+    border-bottom: 2px solid #ff403b;
+  }
+  .component-5 .comp-5-wrapper .comp-5-right {
+    height: 39px;
+    width: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .component-5 .comp-5-wrapper .comp-5-right i {
+    color: white;
+    font-size: 25px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-right i:hover {
+    color: #ff403b;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .component-5 .comp-5-wrapper {
+    width: 591px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 89px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left {
+    width: 775px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left .comp-5-box h1 {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    width: 39px;
+    height: 39px;
+    border: 3px solid white;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left .comp-5-box span {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 7px;
+    margin-top: 3px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left ul {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+    height: 20px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left ul :not(:last-child) {
+    margin-right: 4px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-left li:hover {
+    border-bottom: 2px solid #ff403b;
+  }
+  .component-5 .comp-5-wrapper .comp-5-right {
+    height: 39px;
+    width: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .component-5 .comp-5-wrapper .comp-5-right i {
+    color: white;
+    font-size: 25px;
+  }
+  .component-5 .comp-5-wrapper .comp-5-right i:hover {
+    color: #ff403b;
+    cursor: pointer;
+  }
+}
+.component-5 {
+  width: 100%;
+  height: 164px;
+  background-color: black;
+}
+
+/*# sourceMappingURL=index.css.map */

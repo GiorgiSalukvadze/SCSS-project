@@ -1,0 +1,62 @@
+@media screen and (min-width: $mobile-start) and (max-width: $mobile-end) {
+  .component-5 {
+    justify-content: flex-start;
+
+    .comp-5-wrapper {
+      width: 275px;
+      align-items: flex-start;
+      padding-top: 27px;
+      padding-left: 24px;
+
+      .comp-5-left {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+
+        .comp-5-box {
+          h1 {
+            @include montserrat(28px, bold, white);
+            width: 36px;
+            height: 36px;
+            border: 3px solid white;
+            margin-bottom: 38px;
+          }
+
+          span {
+            @include montserrat(16px, bold, white);
+            margin-left: 4px;
+            margin-top: 6px;
+          }
+        }
+
+        ul {
+          @include montserrat(12px, 400, white);
+          height: 20px;
+          :not(:last-child) {
+            margin-right: 4px;
+          }
+        }
+
+        li:hover {
+          border-bottom: 2px solid #ff403b;
+        }
+      }
+
+      .comp-5-right {
+        height: 39px;
+        width: 47px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        i {
+          color: white;
+          font-size: 25px;
+        }
+
+        i:hover {
+          color: #ff403b;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+@media screen and (min-width: $tablet-start) and (max-width: $tablet-end) {
+  .component-1 {
+    width: 100%;
+    height: 484px;
+    background-color: $comp-1-bg;
+
+    .wrapper {
+      width: 385px;
+      height: 100%;
+
+      .content-div {
+        height: 100%;
+
+        .content-box {
+          background-color: $primary-tablet;
+          width: 345px;
+
+          .content-top {
+            padding: 26px 35px 0px 33px;
+            margin-bottom: 55px;
+
+            .title {
+              img {
+                display: none;
+              }
+            }
+
+            .e-box {
+              @include montserrat(32px, bold, white);
+              border: 3px solid white;
+              padding: 3px 8px;
+              margin-bottom: 47px;
+            }
+
+            .e-text {
+              @include montserrat(17px, bold, white);
+              margin: 5px 0 0 10px;
+            }
+
+            .photography-div {
+              @include montserrat(10px, 400, white);
+              text-align: center;
+              width: 100px;
+              height: 20px;
+              background-color: #111111;
+              margin-bottom: 4px;
+            }
+
+            .john-doe {
+              @include montserrat(25px, bold, white);
+              width: 150px;
+              span {
+                font-size: 21px;
+              }
+              margin-left: 2px;
+              margin-bottom: 15px;
+            }
+
+            .date-div {
+              border-top: 1px solid rgba(255, 255, 255, 0.3);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+              padding: 17px 0 19px 0;
+              margin-bottom: 21px;
+
+              p {
+                @include opensans(16px, 300, white);
+                line-height: 20px;
+                width: 220px;
+                margin-left: 2px;
+              }
+            }
+
+            .admission {
+              @include montserrat(18px, regular, white);
+
+              i {
+                font-size: 21px;
+                color: black;
+                margin-right: 9px;
+              }
+            }
+          }
+        }
+      }
+
+      .content-2 {
+        height: 100%;
+        width: 385px;
+        background-color: black;
+
+        div {
+          width: 40px;
+          height: 100%;
+          background-color: $comp-2-secondary;
+        }
+      }
+    }
+
+    .wrapper-2 {
+      width: 100%;
+      height: 100%;
+
+      .icons {
+        height: 62px;
+        background-color: black;
+
+        div {
+          height: 100%;
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+          border-left: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        i {
+          color: white;
+          font-size: 25px;
+          padding: 0px 20px 0 20px;
+        }
+
+        i:hover {
+          color: #ff403b;
+          cursor: pointer;
+        }
+
+        .icon-div {
+          margin-right: 37px;
+        }
+      }
+    }
+  }
+}

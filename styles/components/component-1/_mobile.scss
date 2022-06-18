@@ -1,0 +1,145 @@
+@media screen and (min-width: $mobile-start) and (max-width: $mobile-end) {
+  .component-1 {
+    width: 100%;
+    height: 487px;
+    background-color: $comp-1-bg;
+
+    .wrapper {
+      width: 320px;
+      height: 100%;
+
+      .content-div {
+        height: 100%;
+        justify-content: center;
+
+        .content-box {
+          background-color: $primary-tablet;
+          width: 271px;
+
+          .content-top {
+            padding: 26px 35px 0px 27px;
+            margin-bottom: 55px;
+            position: relative;
+
+            .title {
+              img {
+                position: absolute;
+                right: 0;
+                top: 13px;
+              }
+            }
+
+            .e-box {
+              @include montserrat(24px, bold, white);
+              border: 3px solid white;
+              padding: 3px 8px;
+              margin-bottom: 57px;
+            }
+
+            .e-text {
+              @include montserrat(14px, bold, white);
+              margin: 4px 0 0 5px;
+            }
+
+            .photography-div {
+              @include montserrat(10px, 400, white);
+              text-align: center;
+              width: 100px;
+              height: 20px;
+              background-color: #111111;
+              margin-bottom: 5px;
+              margin-left: 7px;
+            }
+
+            .john-doe {
+              @include montserrat(25px, bold, white);
+              width: 150px;
+              span {
+                font-size: 21px;
+              }
+              margin-left: 2px;
+              margin-bottom: 15px;
+              margin-left: 9px;
+            }
+
+            .date-div {
+              border-top: 1px solid rgba(255, 255, 255, 0.3);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+              padding: 17px 0 19px 0;
+              margin-bottom: 21px;
+
+              p {
+                @include opensans(14px, 300, white);
+                line-height: 20px;
+                width: 190px;
+                margin-left: 8px;
+              }
+            }
+
+            .admission {
+              @include montserrat(16px, regular, white);
+
+              i {
+                font-size: 21px;
+                color: black;
+                margin-right: 9px;
+              }
+
+              margin-left: 6px;
+            }
+          }
+
+          .content-bottom {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
+
+      .content-2 {
+        height: 100%;
+        width: 100vw;
+        background-color: black;
+      }
+    }
+
+    .wrapper-2 {
+      display: none;
+      width: 100%;
+      height: 100%;
+
+      img {
+        display: flex;
+        visibility: visible;
+        margin-left: -87px;
+        margin-top: 14px;
+      }
+
+      .icons {
+        height: 62px;
+        background-color: black;
+
+        div {
+          height: 100%;
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+          border-left: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        i {
+          color: white;
+          font-size: 25px;
+          padding: 0px 20px 0 20px;
+        }
+
+        i:hover {
+          color: #ff403b;
+          cursor: pointer;
+        }
+
+        .icon-div {
+          margin-right: 37px;
+        }
+      }
+    }
+  }
+}
